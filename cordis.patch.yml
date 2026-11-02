@@ -1,0 +1,13 @@
+# @local/dsh-conversation-hygiene bundle patch.
+#
+# One Host row owns the session trash. Soft delete stays on the existing
+# session "..." menu; the trash dialog supports selection, restore, and purge.
+- insert:
+    - id: dsh-conversation-hygiene
+      name: '@local/dsh-conversation-hygiene'
+      config:
+        sessionLifecycle:
+          enabled: true
+          batchLimit: 20
+        audit:
+          enabled: true
