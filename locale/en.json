@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-conversation-hygiene",
+    "description": "DSH session trash: soft-delete sessions with their original workspace, restore one or many to that workspace, and delete or empty the trash."
+  }
+}
